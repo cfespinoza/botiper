@@ -31,7 +31,7 @@ def setup_package():
         classifiers=['Programming Language :: Python :: 3'],
         entry_points={
             'console_scripts': [
-                'botiper = botiper.botiper.up'
+                'botiper = botiper.botiper:up'
             ]
         }
     )

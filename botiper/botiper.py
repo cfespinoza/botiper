@@ -55,7 +55,8 @@ def ip(update: Update, context: CallbackContext) -> None:
     else: 
         update.message.reply_text(r.text)
 
-
+def up():
+    main()
 
 def main():
     """Start the bot."""
